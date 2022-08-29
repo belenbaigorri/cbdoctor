@@ -72,7 +72,7 @@ footer{display: flex;
     justify-content: space-evenly;
 
 }
-@media (min-width: 996px){  footer{ background-color: lightgreen; 
+@media scree (max-width 996px){  footer{ background-color: lightgreen; 
 
 }
 header {background-image: url(../assets/fondo.jpg.jpg ) ;}
@@ -147,8 +147,7 @@ footer{display: flex;
 }
 }
 
-
-@media (max-width:  576px){ 
+ @media scree  (max-width:  576px){ 
 header {
     display:  flex;
     flex-direction: column;
