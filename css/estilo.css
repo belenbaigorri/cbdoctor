@@ -38,7 +38,7 @@ header nav ul li{
 
 
 li{ 
-    font-size: 30px;
+    font-size: 10px;
 }
 
 a{
@@ -49,7 +49,7 @@ a{
     text-decoration: none;
   }
 
-.border{ 
+/* .border{ 
          border-top:solid 5px green;
          border-bottom: solid 5px green;
          border-left:solid 5px green ;
@@ -65,14 +65,14 @@ a{
 
 .margin{ 
     	margin-bottom:5px;
-    	margin-top:25px ; 
+    	margin-top:5px ; 
     	margin-right: 5px ;
     	margin-left: 5px ;
     }
 
 li{ 
     display: inline; 
-}
+} */
 
 footer div p {font-family:cursive;}
 .class{ overflow: 20px }    
@@ -96,7 +96,31 @@ footer{display: flex;
 }
 
 
-@media only screen and (max-width: 996px){  
+@media only screen and (max-width: 2400px){  
+    .border{ 
+        border-top:solid 5px green;
+        border-bottom: solid 5px green;
+        border-left:solid 5px green ;
+        border-right:solid 5px green ;
+   }
+
+.padding{
+       padding-top:5px ;
+       padding-bottom: 5px;
+       padding-right: 1px ;
+       padding-left:5px ;
+   }
+
+.margin{ 
+       margin-bottom:5px;
+       margin-top:5px ; 
+       margin-right: 5px ;
+       margin-left: 5px ;
+   }
+
+li{ 
+   display: inline; 
+}
 footer{ 
     background-color: lightgreen; 
 
@@ -130,24 +154,7 @@ a{color: black;}
 
  a{text-decoration: none;
   }
-  .border{ 
-         border-top:solid 5px green;
-         border-bottom: solid 5px green;
-         border-left:solid 5px green ;
-         border-right:solid 5px green ;
-    }
-    .padding{
-        padding-top:5px ;
-        padding-bottom: 5px;
-        padding-right: 1px ;
-        padding-left:5px ;
-    }
-    .margin{ 
-        margin-bottom:5px;
-        margin-top:25px ; 
-        margin-right: 5px ;
-        margin-left: 5px ;
-    }
+
 
     li{ display: inline; }
 
@@ -173,11 +180,41 @@ footer{display: flex;
 }
 
  @media only screen and (max-width:  600px){ 
+    .border{ 
+        border-top:solid 5px green;
+        border-bottom: solid 5px green;
+        border-left:solid 5px green ;
+        border-right:solid 5px green ;
+   }
+
+.padding{
+       padding-top:5px ;
+       padding-bottom: 5px;
+       padding-right: 1px ;
+       padding-left:5px ;
+   }
+
+.margin{ 
+       margin-bottom:5px;
+       margin-top:5px ; 
+       margin-right: 5px ;
+       margin-left: 150px ;
+   }
+
+   .img{
+       height: 150px;
+       width: 150px;
+       float: left; 
+   }
+
+li{ 
+   display:grid; 
+   
+}
     header {
         display:  flex;
         flex-direction: column;
     }
-
 
  }
 .gradient {background-image: linear-gradient( springgreen, lightgreen);}
