@@ -48,31 +48,29 @@ a{
 a{
     text-decoration: none;
   }
-
-/* .border{ 
+  a{text-decoration: none;
+  }
+  .border{ 
          border-top:solid 5px green;
          border-bottom: solid 5px green;
          border-left:solid 5px green ;
          border-right:solid 5px green ;
     }
-
-.padding{
-    	padding-top:5px ;
-    	padding-bottom: 5px;
-    	padding-right: 1px ;
-    	padding-left:5px ;
+    .padding{
+        padding-top:5px ;
+        padding-bottom: 5px;
+        padding-right: 1px ;
+        padding-left:5px ;
+    }
+    .margin{ 
+        margin-bottom:5px;
+        margin-top:25px ; 
+        margin-right: 5px ;
+        margin-left: 5px ;
     }
 
-.margin{ 
-    	margin-bottom:5px;
-    	margin-top:5px ; 
-    	margin-right: 5px ;
-    	margin-left: 5px ;
-    }
 
-li{ 
-    display: inline; 
-} */
+/* .bo
 
 footer div p {font-family:cursive;}
 .class{ overflow: 20px }    
