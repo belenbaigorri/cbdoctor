@@ -1,6 +1,6 @@
 
 footer{ 
-    background-color: lightgreen; 
+    background-color: lightcyan; 
 }
 
 header {
@@ -38,7 +38,7 @@ header nav ul li{
 
 
 li{ 
-    font-size: 10px;
+    font-size: 25px;
 }
 
 a{
@@ -50,6 +50,7 @@ a{
   }
   a{text-decoration: none;
   }
+
   .border{ 
          border-top:solid 5px green;
          border-bottom: solid 5px green;
@@ -69,7 +70,7 @@ a{
         margin-left: 5px ;
     }
 
-.bgcolor{background-color:blue ;}
+
 /* .bo
 
 footer div p {font-family:cursive;}
@@ -220,11 +221,3 @@ li{
 .translate {transform:translate(-400px,-20px );}
 
 .colorfuente{color:  white;} 
-
-
-
-
-
-
-
-
