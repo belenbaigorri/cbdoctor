@@ -64,12 +64,12 @@ a{
     }
     .margin{ 
         margin-bottom:5px;
-        margin-top:25px ; 
+        margin-top:15px ; 
         margin-right: 5px ;
         margin-left: 5px ;
     }
 
-
+.bgcolor{background-color:blue ;}
 /* .bo
 
 footer div p {font-family:cursive;}
