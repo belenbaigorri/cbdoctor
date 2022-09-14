@@ -1,0 +1,26 @@
+header {
+	background-image: url(../assets/fondo.jpg.jpg );
+	nav {
+		ul {
+			li {
+				font-size: 25px;
+			}
+		}
+	}
+}
+
+.border {
+	border-top: solid 5px green;
+	border-bottom: solid 5px green;
+	border-left: solid 5px green;
+	border-right: solid 5px green;
+}
+.padding {
+	padding-left: 5px;
+}
+.margin {
+	margin-bottom: 5px;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
