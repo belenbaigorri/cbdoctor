@@ -1,12 +1,12 @@
-@import “colores”;
+@import “_colores”;
 
-@import “footer”;
+@import “_-footer”;
 
-@import “header”;
+@import “_header”;
 
-@import “index”;
+@import “_index”;
 
-@import “tipografiasfuentes”;   
+@import “_tipografiasfuentes”;   
 
 footer{ 
     background-color: lightcyan; 
@@ -230,3 +230,6 @@ li{
 .translate {transform:translate(-400px,-20px );}
 
 .colorfuente{color:  white;} 
+
+@mixin (header) {background-color:lightcyan;},
+
