@@ -1,12 +1,12 @@
-@import “_colores”;
+@import "colores";
 
-@import “_-footer”;
+@import "footer";
 
-@import “_header”;
+@import "header";
 
-@import “_index”;
+@import "index"; 
 
-@import “_tipografiasfuentes”;   
+//@import "tipografiasfuentes";   
 
 footer{ 
     background-color: lightcyan; 
@@ -73,10 +73,10 @@ a{
         padding-left:5px ;
     }
     .margin{ 
-        margin-bottom:5px;
-        margin-top:15px ; 
-        margin-right: 5px ;
-        margin-left: 5px ;
+    margin-bottom:5px;
+    margin-top:15px; 
+    margin-right: 5px;
+    margin-left: 5px;
     }
 
 
